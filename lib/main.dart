@@ -1,7 +1,8 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:profile_ui/Profile_Screen.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(DevicePreview(builder: (context) => MyApp()));
 
 class MyApp extends StatelessWidget {
   @override
